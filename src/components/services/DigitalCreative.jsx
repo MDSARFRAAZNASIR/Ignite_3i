@@ -307,7 +307,7 @@ export default function DigitalCreative() {
             <div className="bg-gradient-to-r from-yellow-800 via-gray-600 to-transparent py-10 px-10 mt-10 max-w-6xl mx-auto">
               {/* <h2 className="max-w-6xl mx-auto text-center italic font-extralight text-white leading-relaxed text-[28px] lg:text-[46px] tracking-wide"> */}
               <h2 className="max-w-6xl mx-auto text-center italic leading-relaxed font-extralight text-white text-[28px] lg:text-[32px] tracking-wide">
-Netpace’s Digital and Creative unit houses a skilled team focused on delivering high-impact digital solutions to boost your brand’s online visibility. Our commitment to innovative design strategies guarantees a seamless digital presence with an impressive visual appeal.
+Ignite<span className="text-red-500">3i</span>’s Digital and Creative unit houses a skilled team focused on delivering high-impact digital solutions to boost your brand’s online visibility. Our commitment to innovative design strategies guarantees a seamless digital presence with an impressive visual appeal.
               </h2>
             </div>
           </motion.div>
@@ -324,7 +324,7 @@ Netpace’s Digital and Creative unit houses a skilled team focused on deliverin
              
 
               <p className="text-center text-[18px] lg:text-[22px] leading-[1.8]  font-light text-slate-100">
-With designs that deeply engage your audience, Netpace specializes in creating immersive digital experiences, compelling storytelling, and visually arresting aesthetics. At Netpace, our drive is to elevate your brand through inventive, user-centric digital solutions, catapulting your online presence to unparalleled success.
+With designs that deeply engage your audience, Ignite<span className="text-red-500">3i</span> specializes in creating immersive digital experiences, compelling storytelling, and visually arresting aesthetics. At Ignite<span className="text-red-500">3i</span>, our drive is to elevate your brand through inventive, user-centric digital solutions, catapulting your online presence to unparalleled success.
               </p>
 
               <motion.div
@@ -366,14 +366,14 @@ Elevate User Experience Through Innovative Design
             </h2>
 
             <p className="mt-8 text-[18px] leading-[1.8] lg:text-[22px]  font-light text-[#F3F4F6]">
-            The Netpace philosophy revolves around design thinking, emphasizing innovative solutions that aim to boost your ROI.
+            The Ignite<span className="text-red-500">3i</span> philosophy revolves around design thinking, emphasizing innovative solutions that aim to boost your ROI.
             </p>
             <h2 className="text-[40px] lg:text-[42px] font-extralight tracking-wide text-white mt-12">
              Websites and SEO
             </h2>
 
              <p className="mt-8 text-[18px] leading-[1.8] lg:text-[22px] font-light text-[#F3F4F6]">
-            Your website needs to be more than just a beautiful website. With Netpace’s Design & Creative at the helm turn your website into a customer generating powerhouse. After all, your company’s website is the most valuable online tool you have.
+            Your website needs to be more than just a beautiful website. With Ignite<span className="text-red-500">3i</span>’s Design & Creative at the helm turn your website into a customer generating powerhouse. After all, your company’s website is the most valuable online tool you have.
             </p>
           </motion.div>
 
@@ -454,7 +454,7 @@ Elevate User Experience Through Innovative Design
               </h2>
 
                 <p className="mt-6 text-[22px]  font-light text-[#F3F4F6]">
-Let Netpace creative help you write the copy to win hearts and engage minds. Find your customers and lead them to the what they need and get them to take action.
+Let Ignite<span className="text-red-500">3i</span> creative help you write the copy to win hearts and engage minds. Find your customers and lead them to the what they need and get them to take action.
             </p>
             </motion.div>
 
