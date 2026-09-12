@@ -274,7 +274,7 @@ const Navbar = () => {
               {/* AI Powered Tag */}
               <span className="inline-flex items-center gap-1.5 px-2.5 py-1 text-xs font-semibold tracking-wide text-blue-400 bg-blue-950/50 border border-blue-500/30 rounded-full shadow-sm">
                 <span className="w-2 h-2 rounded-full bg-blue-400 animate-pulse" />
-                AI Powered
+                AI POWERED
               </span>
             </Link>
           </div>
