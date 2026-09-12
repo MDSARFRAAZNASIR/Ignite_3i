@@ -180,6 +180,7 @@ const insights = [
 ];
 
 // IT Consulting Sub-items configuration
+
 const about = [
   {
     name: "Diversity & Inclusion",
@@ -204,16 +205,21 @@ const Navbar = () => {
   // Mobile Collapsible Accordion States
   const [mobileConsultingOpen, setMobileConsultingOpen] = useState(false);
   const [mobileStaffingOpen, setMobileStaffingOpen] = useState(false);
+  const [mobileInsightOpen, setMobileInsightOpen] = useState(false);
+  const [mobileAboutOpen, setMobileAboutOpen] = useState(false);
 
-  const navLinks = [
-    { name: "Home", id: "home" },
-    { name: "What We Do", id: "services" },
-    { name: "Methodologies", id: "methodologies" },
-    { name: "Team", id: "team" },
-    { name: "Why Choose Us", id: "choose-us" },
-    { name: "Careers", id: "jobs" },
-    { name: "Connect Us", id: "connect" },
-  ];
+
+  
+
+  // const navLinks = [
+  //   { name: "Home", id: "home" },
+  //   { name: "What We Do", id: "services" },
+  //   { name: "Methodologies", id: "methodologies" },
+  //   { name: "Team", id: "team" },
+  //   { name: "Why Choose Us", id: "choose-us" },
+  //   { name: "Careers", id: "jobs" },
+  //   { name: "Connect Us", id: "connect" },
+  // ];
 
   useEffect(() => {
     const handleScroll = () => {
@@ -643,7 +649,7 @@ const Navbar = () => {
             >
               <ul className="py-5 px-6 space-y-1">
                 {/* Mobile Standard Links (Home, What We Do) */}
-                {navLinks.slice(0, 2).map((link) => (
+                {/* {navLinks.slice(0, 2).map((link) => (
                   <li key={link.id}>
                     <button
                       onClick={() => scrollToSection(link.id)}
@@ -652,7 +658,7 @@ const Navbar = () => {
                       {link.name}
                     </button>
                   </li>
-                ))}
+                ))} */}
 
                 {/* Mobile IT Consulting Collapsible Accordion */}
                 <li>
@@ -721,8 +727,77 @@ const Navbar = () => {
                   )}
                 </li>
 
+                 {/* Mobile insight Services Collapsible Accordion */}
+<li>
+  <button
+    onClick={() => setMobileInsightOpen(!mobileInsightOpen)}
+    className="flex items-center justify-between w-full text-left py-2.5 px-4 rounded-lg text-slate-400 hover:text-white hover:bg-slate-900/40 transition"
+  >
+    <span>insights</span>
+    <ChevronDown
+      size={16}
+      className={`transition-transform ${mobileInsightOpen ? "rotate-180 text-blue-400" : ""}`}
+    />
+  </button>
+
+  {mobileInsightOpen && (
+    <div className="pl-6 pr-2 py-2 space-y-1 bg-slate-950/50 rounded-lg my-1 border border-slate-900">
+      {about.map((item, idx) => {
+        const IconComponent = item.icon;
+        return (
+          <a
+            key={idx}
+            href={item.path}
+            onClick={() => setOpen(false)}
+            className="flex items-center gap-2.5 py-1.5 px-3 text-xs text-slate-400 hover:text-blue-400 hover:bg-slate-900 rounded-md transition"
+          >
+            {IconComponent && <IconComponent size={14} className="shrink-0" />}
+            <span>{item.name}</span>
+          </a>
+        );
+      })}
+    </div>
+  )}
+</li>
+
+                 {/* Mobile about Services Collapsible Accordion */}
+
+              
+
+{/* Mobile about Services Collapsible Accordion */}
+<li>
+  <button
+    onClick={() => setMobileAboutOpen(!mobileAboutOpen)}
+    className="flex items-center justify-between w-full text-left py-2.5 px-4 rounded-lg text-slate-400 hover:text-white hover:bg-slate-900/40 transition"
+  >
+    <span>About</span>
+    <ChevronDown
+      size={16}
+      className={`transition-transform ${mobileAboutOpen ? "rotate-180 text-blue-400" : ""}`}
+    />
+  </button>
+
+  {mobileAboutOpen && (
+    <div className="pl-6 pr-2 py-2 space-y-1 bg-slate-950/50 rounded-lg my-1 border border-slate-900">
+      {about.map((item, idx) => {
+        const IconComponent = item.icon;
+        return (
+          <a
+            key={idx}
+            href={item.path}
+            onClick={() => setOpen(false)}
+            className="flex items-center gap-2.5 py-1.5 px-3 text-xs text-slate-400 hover:text-blue-400 hover:bg-slate-900 rounded-md transition"
+          >
+            {IconComponent && <IconComponent size={14} className="shrink-0" />}
+            <span>{item.name}</span>
+          </a>
+        );
+      })}
+    </div>
+  )}
+</li>
                 {/* Mobile Remaining Links */}
-                {navLinks.slice(2).map((link) => (
+                {/* {navLinks.slice(2).map((link) => (
                   <li key={link.id}>
                     <button
                       onClick={() => scrollToSection(link.id)}
@@ -731,8 +806,9 @@ const Navbar = () => {
                       {link.name}
                     </button>
                   </li>
-                ))}
+                ))} */}
               </ul>
+
             </motion.div>
           )}
         </AnimatePresence>
