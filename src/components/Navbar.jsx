@@ -230,25 +230,27 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const scrollToSection = (id) => {
-    const section = document.getElementById(id);
+  // const scrollToSection = (id) => {
+  //   const section = document.getElementById(id);
 
-    if (section) {
-      const navbarHeight = 90;
+  //   if (section) {
+  //     const navbarHeight = 90;
 
-      const y =
-        section.getBoundingClientRect().top + window.pageYOffset - navbarHeight;
+  //     const y =
+  //       section.getBoundingClientRect().top + window.pageYOffset - navbarHeight;
 
-      window.scrollTo({
-        top: y,
-        behavior: "smooth",
-      });
+  //     window.scrollTo({
+  //       top: y,
+  //       behavior: "smooth",
+  //     });
 
-      setOpen(false);
-      setConsultingOpen(false);
-      setStaffingOpen(false);
-    }
-  };
+  //     setOpen(false);
+  //     setConsultingOpen(false);
+  //     setStaffingOpen(false);
+  //     setAboutOpen(false)
+  //     setInsightOpen(false)
+  //   }
+  // };
 
   return (
     <>
