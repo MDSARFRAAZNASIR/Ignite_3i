@@ -1,0 +1,19 @@
+/* src/App.css */
+
+/* 1. Ensure the root layout structure allows scrolling natively */
+html, body {
+  overflow-x: hidden; /* Stops horizontal breakage while keeping vertical scroll intact */
+  overflow-y: auto !important; /* Forces the browser context to always respect scrolling height */
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #000000; /* Keeps your crisp theme base flat */
+}
+
+/* 2. Check your App wrapper component */
+.App {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  /* Make sure there is NO "overflow: hidden" or "position: fixed" here! */
+}
