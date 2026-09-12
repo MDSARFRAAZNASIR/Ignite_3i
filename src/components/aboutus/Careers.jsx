@@ -1,4 +1,3 @@
-
 import React from "react";
 import crc from "../images/crc.jpg";
 import { motion } from "framer-motion";
@@ -45,7 +44,7 @@ export default function Careers() {
               transition={{ duration: 0.8 }}
               className=" lg:text-[66px] leading-[1.1] font-extralight text-white tracking-tight"
             >
-               Careers at Ignite<span className="text-red-500">3i</span>
+              Careers at Ignite<span className="text-red-500">3i</span>
             </motion.h1>
 
             {/* Quote */}
@@ -102,9 +101,10 @@ export default function Careers() {
           text-[#ffbd9e]
         "
             >
-              Ignite<span className="text-red-500">3i</span> is a certified Minority Business Enterprise company. We
-              have worked with a variety of Fortune 500 companies and have
-              brought unique skills to our partner companies.
+              Ignite<span className="text-red-500">3i</span> is a certified
+              Minority Business Enterprise company. We have worked with a
+              variety of Fortune 500 companies and have brought unique skills to
+              our partner companies.
             </p>
           </div>
 
@@ -154,11 +154,12 @@ export default function Careers() {
           lg:leading-7
         "
             >
-              Being part of the Ignite<span className="text-red-500">3i</span> team involves creating significant
-              positive changes and driving business transformation through
-              innovative thinking. You’ll have the opportunity not only to
-              expand your technological skills but also to apply hands-on
-              experience in addressing tangible real-world challenges.
+              Being part of the Ignite<span className="text-red-500">3i</span>{" "}
+              team involves creating significant positive changes and driving
+              business transformation through innovative thinking. You’ll have
+              the opportunity not only to expand your technological skills but
+              also to apply hands-on experience in addressing tangible
+              real-world challenges.
             </p>
 
             {/* Paragraph 3 */}
@@ -184,7 +185,7 @@ export default function Careers() {
         </div>
       </section>
       <JobsListPage />
-      <Footer/>
+      <Footer />
     </div>
   );
 }

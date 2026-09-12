@@ -72,9 +72,9 @@ const AboutIgn = () => {
       />
 
       {/* Map */}
-      <div 
-       style={{ backgroundImage: `url(${map})` }}
-       className="absolute
+      <div
+        style={{ backgroundImage: `url(${map})` }}
+        className="absolute
           right-[-5%]
           top-0
           h-[600px]
@@ -90,9 +90,8 @@ const AboutIgn = () => {
 
           lg:h-[720px]
           lg:w-[60%]
-          lg:opacity-40">
-        
-      </div>
+          lg:opacity-40"
+      ></div>
 
       {/* Dark overlay over map */}
       <div

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Link } from "react-router-dom";
-
 import { PiShoppingBagOpen } from "react-icons/pi";
 import ignite_logo_small_v1 from "../components/images/ignite_logo_small_v1.png";
 
@@ -83,10 +82,26 @@ const consultingItems = [
     icon: CloudLightning,
     path: "/it-consulting-service/aws-solution",
   },
-  { name: "NetSuite ERP", icon: Layers, path: "/it-consulting-service/netsuit-erp" },
-  { name: "Zendesk Integration", icon: HelpCircle, path: "/it-consulting-service/zendesk-integration" },
-  { name: ".NET Development", icon: Code2, path: "/it-consulting-service/dotnet-development" },
-  { name: "UI/UX Design", icon: Layout, path: "/it-consulting-service/ui-ux-design" },
+  {
+    name: "NetSuite ERP",
+    icon: Layers,
+    path: "/it-consulting-service/netsuit-erp",
+  },
+  {
+    name: "Zendesk Integration",
+    icon: HelpCircle,
+    path: "/it-consulting-service/zendesk-integration",
+  },
+  {
+    name: ".NET Development",
+    icon: Code2,
+    path: "/it-consulting-service/dotnet-development",
+  },
+  {
+    name: "UI/UX Design",
+    icon: Layout,
+    path: "/it-consulting-service/ui-ux-design",
+  },
 ];
 
 // 🚀 Staffing Services & Solutions Sub-items configuration
@@ -171,10 +186,9 @@ const about = [
     icon: Building2,
     path: "/diversity-inclusion",
   },
-  
-  { name: "About Ignite3i", icon: DevOpsIcon, path: "/about-ignite3i" },
-  { name: "Careers", icon: PiShoppingBagOpen , path: "/career-at-ignite3i" },
 
+  { name: "About Ignite3i", icon: DevOpsIcon, path: "/about-ignite3i" },
+  { name: "Careers", icon: PiShoppingBagOpen, path: "/career-at-ignite3i" },
 ];
 
 const Navbar = () => {
@@ -230,7 +244,6 @@ const Navbar = () => {
     }
   };
 
-
   return (
     <>
       <motion.nav
@@ -245,24 +258,26 @@ const Navbar = () => {
       >
         <div className="max-w-7xl mx-auto px-6 md:px-8 flex justify-between items-center relative">
           {/* Logo & Brand Button */}
-          
 
-<div className="flex items-center gap-3">
-      <Link to="/" className="flex items-center gap-3 cursor-pointer group">
-        {/* Increased logo size from w-15 h-15 to w-20 h-20 */}
-        <img
-          src={ignite_logo_small_v1}
-          alt="Company Logo"
-          className="w-20 h-20 object-contain transition-transform duration-200 group-hover:scale-105"
-        />
-        
-        {/* AI Powered Tag */}
-        <span className="inline-flex items-center gap-1.5 px-2.5 py-1 text-xs font-semibold tracking-wide text-blue-400 bg-blue-950/50 border border-blue-500/30 rounded-full shadow-sm">
-          <span className="w-2 h-2 rounded-full bg-blue-400 animate-pulse" />
-          AI Powered
-        </span>
-      </Link>
-    </div>
+          <div className="flex items-center gap-3">
+            <Link
+              to="/"
+              className="flex items-center gap-3 cursor-pointer group"
+            >
+              {/* Increased logo size from w-15 h-15 to w-20 h-20 */}
+              <img
+                src={ignite_logo_small_v1}
+                alt="Company Logo"
+                className="w-20 h-20 object-contain transition-transform duration-200 group-hover:scale-105"
+              />
+
+              {/* AI Powered Tag */}
+              <span className="inline-flex items-center gap-1.5 px-2.5 py-1 text-xs font-semibold tracking-wide text-blue-400 bg-blue-950/50 border border-blue-500/30 rounded-full shadow-sm">
+                <span className="w-2 h-2 rounded-full bg-blue-400 animate-pulse" />
+                AI Powered
+              </span>
+            </Link>
+          </div>
 
           {/* Desktop Menu */}
           <ul className="hidden xl:flex pr-100 space-x-1 text-sm font-medium">
@@ -301,7 +316,6 @@ const Navbar = () => {
                     style={{ top: scrolled ? "68px" : "76px" }}
                   >
                     <div className="max-w-7xl mx-auto px-6 md:px-8">
-                      
                       <div className="flex justify-between">
                         <div className="w-1/4">
                           <span className=" text-xs font-bold text-blue-400 tracking-wider uppercase ">
@@ -382,7 +396,8 @@ const Navbar = () => {
                             </h4>
                             <p className="text-[15px] text-white mt-0.5 font-extralight">
                               {/* {staffingCategories[0].subtitle} */}
-                              Simplify talent acquisition, get expert staffing services to  elevate your business
+                              Simplify talent acquisition, get expert staffing
+                              services to elevate your business
                             </p>
                           </div>
 
@@ -415,8 +430,10 @@ const Navbar = () => {
                                 {staffingCategories[1].title}
                               </h4>
                               <p className="text-[15px] text-white mt-0.5 font-extralight ">
-                                 {/* {staffingCategories[0].subtitle} */}
-                                 Complete staffing and direct hiring services for federal agencies and businesses throughout the U.S
+                                {/* {staffingCategories[0].subtitle} */}
+                                Complete staffing and direct hiring services for
+                                federal agencies and businesses throughout the
+                                U.S
                               </p>
                             </div>
 
@@ -440,16 +457,6 @@ const Navbar = () => {
                               })}
                             </div>
                           </div>
-
-                          {/* Bottom CTA Banner */}
-                          {/* <a
-                            href="/staffing"
-                            className="mt-4 block p-3 rounded-xl bg-slate-900/90 border border-slate-800 hover:border-blue-500/50 text-center transition-all group"
-                          >
-                            <span className="text-[11px] font-semibold text-blue-400 group-hover:text-blue-300 block">
-                              Explore All Staffing Solutions &rarr;
-                            </span>
-                          </a> */}
                         </div>
                       </div>
                     </div>
@@ -493,39 +500,37 @@ const Navbar = () => {
                     style={{ top: scrolled ? "68px" : "76px" }}
                   >
                     <div className="max-w-7xl mx-auto px-6 md:px-8">
-
                       <div className="flex justify-between">
-                      <div className="w-1/4 px-2">
-                        <span className="text-xs font-bold text-blue-400 tracking-wider uppercase">
-                          INSIGHTS
-                        </span>
+                        <div className="w-1/4 px-2">
+                          <span className="text-xs font-bold text-blue-400 tracking-wider uppercase">
+                            INSIGHTS
+                          </span>
 
-                       
                           <p className=" mt-4 text-[15px] leading-[1.6] font-light text-[#F3F4F6]">
-                         Industry insights, case studies & the latest trends & technologies
+                            Industry insights, case studies & the latest trends
+                            & technologies
                           </p>
-                      
-                      </div>
+                        </div>
 
-                      <div className="grid grid-cols-2 w-1/2 gap-2">
-                        {insights.map((item, idx) => {
-                          const Icon = item.icon;
-                          return (
-                            <a
-                              key={idx}
-                              href={item.path}
-                              className="flex items-center gap-3 p-2 rounded-xl hover:bg-slate-900 text-slate-300 hover:text-white transition-all group"
-                            >
-                              <div className="p-1.5 rounded-lg bg-slate-900 border border-slate-800 group-hover:bg-blue-600 group-hover:border-blue-600 text-blue-400 group-hover:text-white transition-colors shrink-0">
-                                <Icon size={25} />
-                              </div>
-                              <span className="text-xm font-medium">
-                                {item.name}
-                              </span>
-                            </a>
-                          );
-                        })}
-                      </div>
+                        <div className="grid grid-cols-2 w-1/2 gap-2">
+                          {insights.map((item, idx) => {
+                            const Icon = item.icon;
+                            return (
+                              <a
+                                key={idx}
+                                href={item.path}
+                                className="flex items-center gap-3 p-2 rounded-xl hover:bg-slate-900 text-slate-300 hover:text-white transition-all group"
+                              >
+                                <div className="p-1.5 rounded-lg bg-slate-900 border border-slate-800 group-hover:bg-blue-600 group-hover:border-blue-600 text-blue-400 group-hover:text-white transition-colors shrink-0">
+                                  <Icon size={25} />
+                                </div>
+                                <span className="text-xm font-medium">
+                                  {item.name}
+                                </span>
+                              </a>
+                            );
+                          })}
+                        </div>
                       </div>
                     </div>
                   </motion.div>
@@ -569,40 +574,35 @@ const Navbar = () => {
                   >
                     <div className="max-w-7xl mx-auto px-6 md:px-8">
                       <div className="flex justify-between">
-                      <div className="w-1/4 px-2">
-                        <span className="text-xs font-bold text-blue-400 tracking-wider uppercase">
-                          ABOUT US
-                        </span>
-                         <p className=" mt-4 text-[15px] leading-[1.6] font-light text-[#F3F4F6]">
-                          Your digital growth partner and trusted custom software development and global provider of workforce solutions
+                        <div className="w-1/4 px-2">
+                          <span className="text-xs font-bold text-blue-400 tracking-wider uppercase">
+                            ABOUT US
+                          </span>
+                          <p className=" mt-4 text-[15px] leading-[1.6] font-light text-[#F3F4F6]">
+                            Your digital growth partner and trusted custom
+                            software development and global provider of
+                            workforce solutions
                           </p>
-                        {/* <a
-                          href="/about"
-                          className="text-xs text-slate-400 hover:text-white transition-colors"
-                        >
-                          Learn More &rarr;
-                        </a> */}
-                      </div>
-
-                      <div className="grid grid-cols-2 gap-2 w-1/2">
-                        {about.map((item, idx) => {
-                          const Icon = item.icon;
-                          return (
-                            <a
-                              key={idx}
-                              href={item.path}
-                              className="flex items-center gap-3 p-2 rounded-xl hover:bg-slate-900 text-slate-300 hover:text-white transition-all group"
-                            >
-                              <div className="p-1.5 rounded-lg bg-slate-900 border border-slate-800 group-hover:bg-blue-600 group-hover:border-blue-600 text-blue-400 group-hover:text-white transition-colors shrink-0">
-                                <Icon size={25} />
-                              </div>
-                              <span className="text-xm font-medium">
-                                {item.name}
-                              </span>
-                            </a>
-                          );
-                        })}
-                      </div>
+                        </div>
+                        <div className="grid grid-cols-2 gap-2 w-1/2">
+                          {about.map((item, idx) => {
+                            const Icon = item.icon;
+                            return (
+                              <a
+                                key={idx}
+                                href={item.path}
+                                className="flex items-center gap-3 p-2 rounded-xl hover:bg-slate-900 text-slate-300 hover:text-white transition-all group"
+                              >
+                                <div className="p-1.5 rounded-lg bg-slate-900 border border-slate-800 group-hover:bg-blue-600 group-hover:border-blue-600 text-blue-400 group-hover:text-white transition-colors shrink-0">
+                                  <Icon size={25} />
+                                </div>
+                                <span className="text-xm font-medium">
+                                  {item.name}
+                                </span>
+                              </a>
+                            );
+                          })}
+                        </div>
                       </div>
                     </div>
                   </motion.div>
