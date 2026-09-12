@@ -146,13 +146,13 @@ const serviceCards = [
 
   {
     title: "Android App Development",
-    desc: "Netpace offers specialized Android App Development services. From conceptualization to deployment, we ensure every aspect aligns with Google Play Store guidelines, delivering robust and engaging apps that stand out in the marketplace.",
+    desc: "Ignite3i offers specialized Android App Development services. From conceptualization to deployment, we ensure every aspect aligns with Google Play Store guidelines, delivering robust and engaging apps that stand out in the marketplace.",
     icon: Server,
   },
 
   {
     title: "iOS App Development",
-    desc: "Netpace provides comprehensive iOS App Development services. Our skilled developers craft iOS apps that meet Apple’s stringent standards while delivering an immersive user experience. We leverage the latest iOS technologies and best practices to create secure, high-performance applications.",
+    desc: "Ignite3i provides comprehensive iOS App Development services. Our skilled developers craft iOS apps that meet Apple’s stringent standards while delivering an immersive user experience. We leverage the latest iOS technologies and best practices to create secure, high-performance applications.",
     icon: Apple,
   },
 ];

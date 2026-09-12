@@ -135,7 +135,7 @@ const whyChooseCards = [
   },
   {
     title: "Focus on Efficiency",
-    desc: "Netpace’s DevOps services are designed to maximize efficiency, enabling rapid development, reliable deployments, and continuous improvement throughout the web development lifecycle.",
+    desc: "Ignite3i’s DevOps services are designed to maximize efficiency, enabling rapid development, reliable deployments, and continuous improvement throughout the web development lifecycle.",
     icon: Zap,
   },
   {

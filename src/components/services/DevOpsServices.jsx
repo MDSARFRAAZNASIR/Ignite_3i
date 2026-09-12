@@ -149,7 +149,7 @@ const serviceCards = [
 
   {
     title: "Continuous Integration & Continuous Delivery (CI/CD)",
-    desc: "Thanks to Netpaces tailored solutions, you can create custom cloud-based apps to propel your software delivery cycles forward with our robust CI/CD solutions, accelerating development processes and ensuring swift, reliable releases.",
+    desc: "Thanks to Ignit3i tailored solutions, you can create custom cloud-based apps to propel your software delivery cycles forward with our robust CI/CD solutions, accelerating development processes and ensuring swift, reliable releases.",
     icon: GitBranch,
   },
   {
@@ -166,7 +166,7 @@ const serviceCards = [
 
   {
     title: "Site Reliability Engineering (SRE)",
-    desc: "Netpace teams help you build and maintain robust systems for today’s digital business environment. With our SRE expertise, minimizing downtime and optimizing the performance of your critical systems remains our topmost priority.",
+    desc: "Ignite3i teams help you build and maintain robust systems for today’s digital business environment. With our SRE expertise, minimizing downtime and optimizing the performance of your critical systems remains our topmost priority.",
     icon: Shield,
   },
 
@@ -211,7 +211,7 @@ const whyChooseCards = [
   },
   {
     title: "Focus on Efficiency",
-    desc: "Netpace’s DevOps services are designed to maximize efficiency, enabling rapid development, reliable deployments, and continuous improvement throughout the web development lifecycle.",
+    desc: "Ignite3i’s DevOps services are designed to maximize efficiency, enabling rapid development, reliable deployments, and continuous improvement throughout the web development lifecycle.",
     icon: Zap,
   },
   {
