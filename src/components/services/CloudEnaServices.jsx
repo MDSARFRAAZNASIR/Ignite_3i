@@ -134,7 +134,7 @@ const techStackData = {
 const serviceCards = [
   {
     title: "Cloud and Data Migration Expertise",
-    desc: "At Netpace, our seasoned professionals meticulously strategize and execute software and data migration plans. We craft comprehensive policies ensuring efficient data management automation, harnessing the power of analytics, and maximizing data utilization.",
+    desc: "At Ignite3i, our seasoned professionals meticulously strategize and execute software and data migration plans. We craft comprehensive policies ensuring efficient data management automation, harnessing the power of analytics, and maximizing data utilization.",
     icon: Radar,
   },
   {
@@ -167,7 +167,7 @@ const whyChooseCards = [
   },
   {
     title: "Client-Centric Solutions",
-    desc: "Netpace prioritizes understanding clients’ needs, delivering scalable, flexible, resilient, efficient, and cost-effective cloud solutions.",
+    desc: "Ignite3i prioritizes understanding clients’ needs, delivering scalable, flexible, resilient, efficient, and cost-effective cloud solutions.",
     icon: Boxes,
   },
   {
@@ -294,7 +294,7 @@ export default function AwsCloudServices() {
               <h2 className="max-w-6xl mx-auto text-center italic font-extralight text-white leading-relaxed text-[28px] lg:text-[32px] tracking-wide">
                 In the IT-driven landscape of today, companies need to
                 communicate with their infrastructure anywhere in the world –
-                this is where Netpace comes in. Cloud enablement is the process
+                this is where Ignite<span className="text-red-500">3i</span> comes in. Cloud enablement is the process
                 of building a highly effective cloud environment to host IT
                 infrastructure and resources – this includes software,
                 applications, and workloads.
@@ -315,7 +315,7 @@ export default function AwsCloudServices() {
                 The essence of cloud computing lies in its ability to curtail IT
                 infrastructure expenses while granting users access to crucial
                 data and business applications from any location with an
-                internet connection. Netpace helps companies that need to invest
+                internet connection. Ignite<span className="text-red-500">3i</span> helps companies that need to invest
                 in their people and customers, as well as in the right
                 processes, and technologies that drive revenue. Implementing
                 these services offers unrestricted access to a wealth of
@@ -324,7 +324,7 @@ export default function AwsCloudServices() {
               </p>
               <p className="text-center text-[18px] lg:text-[22px] leading-[1.8] font-light text-slate-100">
                 Businesses require agile and scalable solutions to navigate the
-                complexities of IT infrastructure. Netpace’s Cloud Enablement
+                complexities of IT infrastructure. Ignite<span className="text-red-500">3i</span>’s Cloud Enablement
                 Services offer a gateway to a dynamic world of unlimited
                 computing resources, providing unparalleled access to
                 enterprise-grade services for businesses of all sizes. Embracing

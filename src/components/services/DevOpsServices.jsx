@@ -339,7 +339,7 @@ export default function DevOpsServices() {
             <div className="bg-gradient-to-r from-yellow-800 via-gray-600 to-transparent py-10 px-10 mt-10 max-w-6xl mx-auto">
               <h2 className="max-w-6xl mx-auto text-center italic font-extralight text-white leading-relaxed text-[28px] lg:text-[32px] tracking-wide">
                 Minimize costs, Streamline, Scale, and Modernize Your Operations
-                Through Netpace’s DevOps Services.
+                Through Ignite<span className="text-red-500">3i</span>’s DevOps Services.
               </h2>
             </div>
           </motion.div>
@@ -357,7 +357,7 @@ export default function DevOpsServices() {
                 In the data-driven landscape of the modern business world,
                 harnessing the power of data analytics is paramount for
                 organizations striving to make informed decisions and gain a
-                competitive edge. At Netpace, we offer comprehensive Data
+                competitive edge. At Ignite<span className="text-red-500">3i</span>, we offer comprehensive Data
                 Analytics Services designed to unlock actionable insights from
                 your data, fueling innovation, and driving business success..
               </p>
@@ -436,7 +436,7 @@ export default function DevOpsServices() {
               From agile CI/CD and efficient IaC to robust PaaS solutions, we
               optimize every step to ensure reliability, comprehensive
               management and automation solutions that elevate your digital
-              experience – Netpace’s DevOps Services is your gateway to
+              experience – Ignite<span className="text-red-500">3i</span>’s DevOps Services is your gateway to
               streamlined operations.
             </p>
           </motion.div>

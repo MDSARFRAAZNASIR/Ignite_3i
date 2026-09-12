@@ -123,7 +123,7 @@ const DiversitySection = () => {
             xl:text-[34px]
           "
         >
-          Diversity today goes beyond race and gender, which is why at Netpace
+          Diversity today goes beyond race and gender, which is why at Ignite<span className="text-red-500">3i</span>
           we continually strive to create a thriving diverse and all-inclusive
           environment.
         </p>

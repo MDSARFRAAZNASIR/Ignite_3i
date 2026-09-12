@@ -147,7 +147,7 @@ const serviceCards = [
   {
     title: "Predictive Analytics",
     // subtitle: "Accelerated Development",
-    desc: "Stay ahead of the curve with predictive analytics. Netpace leverages advanced algorithms and models to forecast trends, identify opportunities, and mitigate risks, enabling proactive decision-making.",
+    desc: "Stay ahead of the curve with predictive analytics. Ignite3i leverages advanced algorithms and models to forecast trends, identify opportunities, and mitigate risks, enabling proactive decision-making.",
     icon: GitBranch,
   },
   {
@@ -327,7 +327,7 @@ export default function DataAnalytics() {
             <div className="bg-gradient-to-r from-yellow-800 via-gray-600 to-transparent py-10 px-10 mt-10 max-w-6xl mx-auto">
               <h2 className="max-w-6xl mx-auto text-center italic font-extralight text-white leading-relaxed text-[28px] lg:text-[30px] tracking-wide">
                 In the fast-evolving landscape of business, where data reigns
-                supreme, Netpace stands as your strategic partner for
+                supreme, Ignite<span className="text-red-500">3i</span> stands as your strategic partner for
                 cutting-edge Data Analytics Services. We bring a wealth of
                 expertise, delivering simple, scalable, and integrated analytics
                 solutions tailored to elevate your decision-making processes.

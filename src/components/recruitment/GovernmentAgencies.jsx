@@ -382,7 +382,7 @@ export const GovernmentAgencies = () => {
             xl:text-[38px]
           "
           >
-            Netpace offers direct hiring services to both federal government
+            Ignite<span className="text-red-500">3i</span> offers direct hiring services to both federal government
             agencies and commercial businesses throughout the U.S.
           </p>
 
@@ -485,7 +485,7 @@ export const GovernmentAgencies = () => {
             lg:text-[36px]
           "
           >
-            Why Choose Netpace Recruitment Services?
+            Why Choose Ignite<span className="text-red-500">3i</span> Recruitment Services?
           </p>
 
           {/* Main heading */}
@@ -1237,7 +1237,7 @@ export const GovernmentAgencies = () => {
             lg:text-[34px]
           "
         >
-          Netpace specializes in recruiting for:
+          Ignite<span className="text-red-500">3i</span> specializes in recruiting for:
         </p>
 
         {/* Industry buttons */}
@@ -1409,7 +1409,7 @@ export const GovernmentAgencies = () => {
         lg:text-[32px]
       "
     >
-      Partner with Netpace today and achieve workforce excellence.
+      Partner with Ignite<span className="text-red-500">3i</span> today and achieve workforce excellence.
     </p>
 
     {/* Description */}

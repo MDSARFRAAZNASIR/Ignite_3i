@@ -37,7 +37,7 @@ const whyChooseCards = [
   },
   {
     title: "Proven Track Record",
-    desc: "With a track record of successful placements, Netpace has the experience and expertise to ensure that your Administrative & Clerical team is staffed with the best talent availablew.",
+    desc: "With a track record of successful placements, Ignite3i has the experience and expertise to ensure that your Administrative & Clerical team is staffed with the best talent availablew.",
     icon: Mic,
   },
 ];
@@ -160,7 +160,7 @@ export default function AdministrativeAndClerical() {
               <h2 className="max-w-6xl mx-auto text-center italic font-extralight text-white leading-relaxed text-[28px] lg:text-[32px] tracking-wide">
                 In today’s dynamic business world, efficient and organized
                 administrative support is no longer a luxury, it’s a necessity.
-                At Netpace, we understand the crucial role well-rounded
+                At Ignite<span className="text-red-500">3i</span>, we understand the crucial role well-rounded
                 Administrative & Clerical professionals play in propelling your
                 business forward. That’s why we offer comprehensive staffing
                 solutions designed to match your unique needs and empower your

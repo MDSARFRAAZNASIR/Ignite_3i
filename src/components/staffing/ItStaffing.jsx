@@ -144,12 +144,12 @@ const whyChooseCards = [
   },
   {
     title: "Tailored IT Staffing Solutions:",
-    desc: "Netpace offers customized IT staffing solutions, ensuring that your specific needs are met with precision and efficiency.",
+    desc: "Ignite3i offers customized IT staffing solutions, ensuring that your specific needs are met with precision and efficiency.",
     icon: Lightbulb,
   },
   {
     title: "Diverse Role Coverage",
-    desc: "From Java Developers to Data Scientists, Netpace covers a broad spectrum of IT roles, providing a comprehensive solution for all your staffing needs.",
+    desc: "From Java Developers to Data Scientists, Ignite3i covers a broad spectrum of IT roles, providing a comprehensive solution for all your staffing needs.",
     icon: Boxes,
   },
   {

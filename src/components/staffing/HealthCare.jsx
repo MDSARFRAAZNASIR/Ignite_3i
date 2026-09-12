@@ -49,7 +49,7 @@ const serviceCards = [
   },
   {
     title: "Proven Reputation & Healthcare Experience",
-    desc: "With 25 years of experience in staffing, we understand your organization inside and out, which allows us to deliver personalized service.",
+    desc: "With 8 years of experience in staffing, we understand your organization inside and out, which allows us to deliver personalized service.",
     icon: FileCode,
   },
 
@@ -308,11 +308,11 @@ export default function HealthCare() {
                    transition={{ duration: 0.7 }}
                  >
                    <h2 className="text-[48px] lg:text-[50px]  font-light text-white tracking-wide italic">
-                   Healthcare Roles Fulfilled by Netpace
+                   Healthcare Roles Fulfilled by Ignite<span className="text-red-500">3i</span>
                    </h2>
      
                      <p className="mt-6 text-[22px]  font-light text-[#F3F4F6]">
-Netpace plays a pivotal role in fulfilling various key positions within healthcare organizations, catering to the critical needs with precision and expertise. Check out more at www.netpacehealth.com.
+Ignite<span className="text-red-500">3i</span> plays a pivotal role in fulfilling various key positions within healthcare organizations, catering to the critical needs with precision and expertise. Check out more at www.netpacehealth.com.
                  </p>
                  </motion.div>
      

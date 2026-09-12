@@ -39,7 +39,7 @@ const whyChooseCards = [
   },
   {
     title: "Efficient Recruitment Process",
-    desc: "Netpace employs a streamlined recruitment process, saving you time and resources in building a high performing Accounting & Finance team.",
+    desc: "Ignite3i employs a streamlined recruitment process, saving you time and resources in building a high performing Accounting & Finance team.",
     icon: Boxes,
   },
   {

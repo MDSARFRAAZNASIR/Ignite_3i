@@ -318,7 +318,7 @@ export default function ArtificialIntelligence() {
               {/* <h2 className="max-w-6xl mx-auto text-center italic font-extralight text-white leading-relaxed text-[28px] lg:text-[46px] tracking-wide"> */}
               <h2 className="max-w-6xl mx-auto text-center italic font-extralight text-white leading-relaxed text-[28px] lg:text-[32px] tracking-wide">
                 Curious about how Artificial Intelligence can transform your
-                business? Netpace’s AI development solutions are purpose-built
+                business? Ignite<span className="text-red-500">3i</span>’s AI development solutions are purpose-built
                 to enhance your business’s operational efficiency.
               </h2>
             </div>

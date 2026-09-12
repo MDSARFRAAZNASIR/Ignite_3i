@@ -17,7 +17,7 @@ import ContactUsPage from "../ContactUsPage";
 const serviceCarding = [
   {
     title: "Cost-Effective Solutions",
-    desc: "Hiring offshore talent with Netpace allows you to significantly reduce operational expenses without compromising on quality. Our offshore teams provide high-end solutions at a fraction of the cost, enabling you to reinvest savings into core business areas. Enjoy the benefits of lower labor costs, reduced overheads, and access to cutting-edge technology and resources.",
+    desc: "Hiring offshore talent with Ignite3i allows you to significantly reduce operational expenses without compromising on quality. Our offshore teams provide high-end solutions at a fraction of the cost, enabling you to reinvest savings into core business areas. Enjoy the benefits of lower labor costs, reduced overheads, and access to cutting-edge technology and resources.",
     icon: Radar,
   },
   {

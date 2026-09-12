@@ -152,7 +152,7 @@ const Ignite3iVision = () => {
               xl:text-[22px]
             "
           >
-            The Netpace commitment for diversity and inclusion extends beyond
+            The Ignite<span className="text-red-500">3i</span> commitment for diversity and inclusion extends beyond
             the workplace. We envision making a positive impact on the
             communities we serve by actively engaging in initiatives that
             promote equality, support underrepresented groups, and contribute
@@ -177,7 +177,7 @@ const Ignite3iVision = () => {
               xl:text-[21px]
             "
           >
-            At Netpace, diversity and inclusion are the cornerstones of our
+            At Ignite<span className="text-red-500">3i</span>, diversity and inclusion are the cornerstones of our
             success. We are dedicated to cultivating an inclusive environment
             where every individual can flourish, innovate, and reach their full
             potential. Be part of our journey as we champion diversity and

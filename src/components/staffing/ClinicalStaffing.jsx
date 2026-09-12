@@ -22,7 +22,7 @@ const whyChooseCards = [
   },
   {
     title: "Tailored IT Staffing Solutions:",
-    desc: "Netpace offers customized IT staffing solutions, ensuring that your specific needs are met with precision and efficiency.",
+    desc: "Ignite3i offers customized IT staffing solutions, ensuring that your specific needs are met with precision and efficiency.",
     icon: Lightbulb,
   },
   {

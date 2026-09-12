@@ -130,7 +130,7 @@ const whyChooseCards = [
   },
   {
     title: "Comprehensive Service Portfolio",
-    desc: "From CI/CD implementation to infrastructure management, Netpace offers a full spectrum of DevOps services, addressing all aspects of your web development requirements under one roof.",
+    desc: "From CI/CD implementation to infrastructure management, Ignite3i offers a full spectrum of DevOps services, addressing all aspects of your web development requirements under one roof.",
     icon: Layers,
   },
   {
@@ -159,12 +159,12 @@ const serviceCards = [
 
   {
     title: "Customization & Configuration",
-    desc: "Netpace’s expertise shines when it comes to aligning the NetSuite system with your specific business processes. We meticulously configure modules, workflows, and features to ensure optimal functionality and efficiency, tailored precisely to your needs.",
+    desc: "Ignite3i’s expertise shines when it comes to aligning the NetSuite system with your specific business processes. We meticulously configure modules, workflows, and features to ensure optimal functionality and efficiency, tailored precisely to your needs.",
     icon: GitBranch,
   },
   {
     title: "Data Migration",
-    desc: "Transitioning to NetSuite can be seamless with Netpace by your side. We specialize in the migration of your data from existing systems to NetSuite, ensuring data integrity and minimizing disruptions throughout the process.",
+    desc: "Transitioning to NetSuite can be seamless with Ignite3i by your side. We specialize in the migration of your data from existing systems to NetSuite, ensuring data integrity and minimizing disruptions throughout the process.",
     icon: FileCode,
   },
 

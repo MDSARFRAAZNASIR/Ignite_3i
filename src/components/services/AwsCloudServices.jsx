@@ -43,7 +43,7 @@ const serviceCards = [
     title: "AWS Integration",
     // subtitle: "High-Performance Systems",
     desc: [
-      "At Netpace, we don’t just integrate AWS with your existing systems; we engineer seamless harmony among your tools. As your trusted AWS partner, we approach integration as an art form, ensuring that data flows seamlessly and processes synchronize flawlessly.",
+      "At Ignite3i, we don’t just integrate AWS with your existing systems; we engineer seamless harmony among your tools. As your trusted AWS partner, we approach integration as an art form, ensuring that data flows seamlessly and processes synchronize flawlessly.",
 
       "Our AWS integration services are the architects of connectivity, fostering an environment where AWS becomes an integral and synchronized component of your technology stack. We don’t just optimize your AWS environment; we orchestrate a symphony of efficiency and productivity, guaranteeing that your AWS setup operates in perfect concert with your business objectives.",
     ],

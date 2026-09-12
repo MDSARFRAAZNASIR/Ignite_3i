@@ -21,7 +21,7 @@ const whyChooseCards = [
   },
   {
     title: "Strategic Planning",
-    desc: "Netpace’s approach goes beyond the transient trends, offering strategic plans that are not only effective but also adaptable to the evolving needs of your business.",
+    desc: "Ignite3i’s approach goes beyond the transient trends, offering strategic plans that are not only effective but also adaptable to the evolving needs of your business.",
     icon: Lightbulb,
   },
   {
@@ -36,7 +36,7 @@ const whyChooseCards = [
   },
   {
     title: "Focus on Your Core Business",
-    desc: "Let Netpace handle the complexities of recruiting and staffing, allowing you to concentrate on what matters most – running and growing your business.",
+    desc: "Let Ignite3i handle the complexities of recruiting and staffing, allowing you to concentrate on what matters most – running and growing your business.",
     icon: Zap,
   },
 ];
@@ -159,7 +159,7 @@ export default function EngineeringStaffing() {
    to-transparent  py-10 px-10 mt-10 max-w-6xl mx-auto">
               {/* <h2 className="max-w-6xl mx-auto text-center italic font-extralight text-white leading-relaxed text-[28px] lg:text-[46px] tracking-wide"> */}
               <h2 className="max-w-6xl mx-auto text-center italic font-extralight text-white leading-relaxed text-[27px] lg:text-[30px] tracking-wide">
-                Are you seeking top-tier engineering talent to power your business to new heights? At Netpace we understand that companies all over the glove are looking for ways to streamline their business, improve profitability, and maintain and hire quality resources. We specialize in tailored solutions crafted to meet the unique demands of businesses seeking engineering professionals. Our comprehensive approach addresses the diverse needs of organizations, ensuring access to optimal engineering staffing talent.
+                Are you seeking top-tier engineering talent to power your business to new heights? At Ignite<span className="text-red-500">3i</span> we understand that companies all over the glove are looking for ways to streamline their business, improve profitability, and maintain and hire quality resources. We specialize in tailored solutions crafted to meet the unique demands of businesses seeking engineering professionals. Our comprehensive approach addresses the diverse needs of organizations, ensuring access to optimal engineering staffing talent.
               </h2>
             </div>
           </motion.div>

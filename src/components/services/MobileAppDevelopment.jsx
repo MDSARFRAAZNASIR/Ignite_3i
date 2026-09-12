@@ -269,7 +269,7 @@ export default function MobileAppDevelopment() {
             className="space-y-14"
           >
             <p className="text-center text-[18px] lg:text-[22px]  font-light text-slate-100">
-              Netpace’s mobile application development service team, comprises
+              Ignite<span className="text-red-500">3i</span>’s mobile application development service team, comprises
               of designers, engineers, project managers, and testers – bringing
               with them unparalleled expertise. We blend cutting-edge design and
               technology to transform innovative ideas into dynamic digital
