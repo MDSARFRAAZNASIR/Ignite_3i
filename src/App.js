@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import HomePage from "./components/HomePage";
 import ScrollToTop from "./components/ScrollToTop";
 import AIChatbot from "./components/AIChatbot";
-import { Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 import EnterpriseAppDevelopment from "./components/services/EnterpriseAppDevelopment";
 import DevOpsServices from "./components/services/DevOpsServices";
 import MobileAppDevelopment from "./components/services/MobileAppDevelopment";
@@ -88,6 +88,8 @@ return (
         <Route path="/about-ignite3i" element={<AboutUs/>}></Route>
         <Route path="/career-at-ignite3i" element={<Careers/>}></Route>
         <Route path="/contactnow" element={<ContactUs/>}></Route>
+        {/* Redirect any unknown route to home */}
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
       <AIChatbot />
     </>

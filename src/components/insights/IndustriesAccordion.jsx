@@ -200,7 +200,7 @@ const IndustriesAccordion = () => {
 
             "
           >
-            At Netpace Inc., we specialize in delivering industry-specific
+            At Ignite<span className="text-red-500"></span> Inc., we specialize in delivering industry-specific
             software solutions that empower enterprises to drive innovation,
             enhance operational efficiency, and achieve business objectives.
             With our wealth of expertise in delivering tailored digital
