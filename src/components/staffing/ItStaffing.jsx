@@ -341,11 +341,9 @@ We have successfully fulfilled the following roles
             </h2>
 
             <p className="mt-8 text-[18px] lg:text-[22px] leading-[1.8] font-light text-[#F3F4F6]">
-             Netpace fulfills vital roles crucial for IT firms, ensuring a seamless technological infrastructure. Our expertise extends beyond these roles, covering a wide range of IT roles comprehensively.
+             Ignite<span className="text-red-500">3i</span> fulfills vital roles crucial for IT firms, ensuring a seamless technological infrastructure. Our expertise extends beyond these roles, covering a wide range of IT roles comprehensively.
             </p>
-            {/* <h2 className="text-[40px] lg:text-[42px] font-extralight tracking-wide text-white mt-12">
-              AI Capabilities
-            </h2> */}
+           
           </motion.div>
 
         
@@ -374,7 +372,7 @@ We have successfully fulfilled the following roles
               <h2 className="text-[48px] lg:text-[64px] leading-[1.05] font-extralight text-white tracking-wide">
                 Why Choose
                 <br />
-                Ignite3i?
+                Ignite<span className="text-red-500">3i</span>?
               </h2>
             </motion.div>
 

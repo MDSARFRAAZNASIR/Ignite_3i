@@ -95,7 +95,7 @@ export default function  DigitalCreative() {
               transition={{ delay: 0.4 }}
               className="text-[20px] lg:text-[28px] text-white font-light tracking-wide mb-2 py-2"
             >
-Empower Your Digital Vision with Netpace
+Empower Your Digital Vision with Ignite3i
             </motion.p>
 
             {/* Quote */}
@@ -181,7 +181,7 @@ Empower Your Digital Vision with Netpace
               </p>
 
               <p className="text-center text-[18px] lg:text-[22px] leading-[1.5] font-light ">
-In the digital realm, where innovation drives success, businesses require seamless access to a diverse set of creative talents and digital expertise. Netpace provides unparalleled Creative Services and Digital Marketing Solutions to empower your brand’s journey towards excellence.
+In the digital realm, where innovation drives success, businesses require seamless access to a diverse set of creative talents and digital expertise. Ignite<span className="text-red-500">3i</span> provides unparalleled Creative Services and Digital Marketing Solutions to empower your brand’s journey towards excellence.
               </p>
               <p className="text-center text-[18px] lg:text-[22px] leading-[1.5] font-light ">
 

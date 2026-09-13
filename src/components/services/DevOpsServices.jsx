@@ -160,7 +160,7 @@ const serviceCards = [
 
   {
     title: "Platform as a Service (PaaS)",
-    desc: "With Netpace’s PaaS solutions we help you accelerate your software development and deployment process, fostering innovation and efficiency to drive successful project outcomes leading to reduced costs and improvement of overall software quality.",
+    desc: "With Ignite3i’s PaaS solutions we help you accelerate your software development and deployment process, fostering innovation and efficiency to drive successful project outcomes leading to reduced costs and improvement of overall software quality.",
     icon: Server,
   },
 
@@ -177,7 +177,7 @@ const serviceCards = [
   },
   {
     title: "Configuration Management",
-    desc: "Reduce errors, streamline processes and enhance system stability and simplify infrastructure management with Netpace’s expert Configuration Management solutions. Our DevOps solutions simplify infrastructure management with automated configuration, infrastructure-as-code, version control, and compliance with industry standards.",
+    desc: "Reduce errors, streamline processes and enhance system stability and simplify infrastructure management with Ignite3i’s expert Configuration Management solutions. Our DevOps solutions simplify infrastructure management with automated configuration, infrastructure-as-code, version control, and compliance with industry standards.",
     icon: Settings,
   },
 
@@ -193,7 +193,7 @@ const serviceCards = [
   },
   {
     title: "Testing Automation",
-    desc: "Boost efficiency and reliability through Netpace’s Testing Automation solutions. We offer automated testing, identifying bugs, reducing the time and cost of manual testing and help you accelerate your timeline, increase test coverage, and improve the overall quality of your apps.",
+    desc: "Boost efficiency and reliability through Ignite3i’s Testing Automation solutions. We offer automated testing, identifying bugs, reducing the time and cost of manual testing and help you accelerate your timeline, increase test coverage, and improve the overall quality of your apps.",
     icon: TestTube,
   },
 ];
@@ -414,7 +414,7 @@ export default function DevOpsServices() {
               performance, and ensure high availability..
             </p>
             <p className=" mt-5 text-center text-[18px] lg:text-[22px]  font-light leading-[1.8] text-slate-100">
-              Netpace’s team of seasoned DevOps consultants provide expert
+              Ignite<span className="text-red-500">3i</span>’s team of seasoned DevOps consultants provide expert
               consulting services to enhance operational efficiency, and
               accelerate workflows with innovation...
             </p>

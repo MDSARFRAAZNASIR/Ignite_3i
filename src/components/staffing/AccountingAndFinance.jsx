@@ -49,7 +49,7 @@ const whyChooseCards = [
   },
   {
     title: "Comprehensive Role Coverage",
-    desc: "From Staff Accountants to Financial Auditors, Netpace covers a wide range of roles, providing a one-stop solution for all your Accounting & Finance staffing needs.",
+    desc: "From Staff Accountants to Financial Auditors, Ignite3i covers a wide range of roles, providing a one-stop solution for all your Accounting & Finance staffing needs.",
     icon: Mic,
   },
 ];
@@ -187,7 +187,7 @@ Welcome to Ignite<span className="text-red-500">3i</span>, where excellence meet
               className="space-y-14"
             >
               <p className="text-center text-[18px] lg:text-[22px] leading-tight font-light  ">
-Netpace excels in providing specialized staffing solutions for various Accounting & Finance roles, ensuring that your team is fortified with professionals who possess the skills and knowledge needed to navigate the complexities of financial management.
+Ignite<span className="text-red-500">3i</span> excels in providing specialized staffing solutions for various Accounting & Finance roles, ensuring that your team is fortified with professionals who possess the skills and knowledge needed to navigate the complexities of financial management.
               </p>
               <p className=" mt-2 text-center text-[18px] lg:text-[22px] leading-tight font-light ">
 
@@ -232,11 +232,9 @@ We have successfully fulfilled the following roles
             </h2>
 
             <p className="mt-6 text-[22px] leading-[1.8] font-light text-[#F3F4F6]">
-At Netpace we ensure your Accounting and Finance team is equipped with skilled professionals possessing the expertise required to navigate the intricacies of financial management.
+At Ignite<span className="text-red-500">3i</span> we ensure your Accounting and Finance team is equipped with skilled professionals possessing the expertise required to navigate the intricacies of financial management.
             </p>
-            {/* <h2 className="text-[40px] lg:text-[42px] font-extralight tracking-wide text-white mt-12">
-              AI Capabilities
-            </h2> */}
+          
           </motion.div>
 
         
@@ -265,7 +263,7 @@ At Netpace we ensure your Accounting and Finance team is equipped with skilled p
               <h2 className="text-[48px] lg:text-[64px] leading-[1.05] font-extralight text-white tracking-wide">
                 Why Choose
                 <br />
-                Ignite3i?
+                Ignite<span className="text-red-500">3i</span>3i?
               </h2>
             </motion.div>
 

@@ -98,13 +98,13 @@ const faqData = [
       "Depending on your project requirements, deliverables may include user research, user personas, information architecture, wireframes, high-fidelity UI designs, interactive prototypes, design systems, and usability testing reports.",
   },
   {
-    question: "How does Netpace ensure the usability of its designs?",
+    question: "How does Ignite3i ensure the usability of its designs?",
     answer:
       "We ensure usability through user research, usability testing, interactive prototypes, accessibility considerations, feedback cycles, and continuous design improvements based on real user behavior.",
   },
   {
     question:
-      "Can Netpace's UI/UX design services help improve my business outcomes?",
+      "Can Ignite3i's UI/UX design services help improve my business outcomes?",
     answer:
       "Yes. Effective UI/UX design can improve customer satisfaction, engagement, conversion rates, retention, and overall product usability while helping your business create a stronger digital presence.",
   },

@@ -220,7 +220,7 @@ export default function Offshore() {
                 In today’s global marketplace, leveraging offshore talent has
                 become a strategic advantage for businesses seeking to enhance
                 their capabilities while managing costs effectively. By
-                partnering with Netpace, you gain access to a vast pool of
+                partnering with Ignite<span className="text-red-500">3i</span>, you gain access to a vast pool of
                 highly skilled professionals who are experts in their respective
                 fields.
               </h2>

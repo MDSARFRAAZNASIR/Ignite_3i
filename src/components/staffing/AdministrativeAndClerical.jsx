@@ -265,7 +265,7 @@ export default function AdministrativeAndClerical() {
               <h2 className=" py-12 text-[25px] lg:text-[45px] leading-[1.05] font-sans text-white">
                 Why Choose
                 <br />
-                Ignite3i?
+                Ignite<span className="text-red-500">3i</span>?
               </h2>
             </motion.div>
 

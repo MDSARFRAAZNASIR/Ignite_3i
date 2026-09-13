@@ -156,7 +156,7 @@ export default function ClinicalStaffing() {
               <h2 className="max-w-6xl mx-auto text-center italic font-extralight text-white leading-relaxed text-[28px] lg:text-[25px] tracking-wide">
                 Navigating the intricate landscape of Clinical & Scientific
                 recruitment demands specialized expertise and a keen eye for
-                top-tier talent. At Netpace, our staffing solutions are tailored
+                top-tier talent. At Ignite<span className="text-red-500">3i</span>, our staffing solutions are tailored
                 to precisely address the unique demands of Clinical & Scientific
                 industries. Our commitment lies in offering customized
                 recruitment solutions that connect companies with the precise
@@ -226,7 +226,7 @@ export default function ClinicalStaffing() {
             className="max-w-6xl mx-auto text-center mb-20"
           >
             <h2 className="text-[40px] lg:text-[42px] font-extralight tracking-wide text-yellow-400">
-              Roles Fulfilled by Netpace
+              Roles Fulfilled by Ignite<span className="text-red-500">3i</span>
             </h2>
 
             <p className="mt-8 text-[22px] lg:text-[20px] leading-[1.5] font-light text-[#F3F4F6]">

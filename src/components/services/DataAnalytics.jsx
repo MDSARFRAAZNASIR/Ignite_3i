@@ -153,7 +153,7 @@ const serviceCards = [
   {
     title: "Big Data Analytics",
     // subtitle: "Platform-Native Excellence",
-    desc: "Efficiently handle large volumes of data with our Big Data Analytics services. Netpace helps you derive meaningful insights from massive datasets, ensuring scalability and performance.",
+    desc: "Efficiently handle large volumes of data with our Big Data Analytics services. Ignite3i helps you derive meaningful insights from massive datasets, ensuring scalability and performance.",
     icon: FileCode,
   },
 
@@ -167,7 +167,7 @@ const serviceCards = [
   {
     title: "Cloud Solutions for SaaS Data Analyticss",
     subtitle: "System Reliability",
-    desc: "Netpace assists you in developing Software as a Service (SaaS) data analytics products with cloud-based deployment models. This approach not only reduces costs but also facilitates the seamless integration of your data streams on the cloud, providing unprecedented organization, storage, manipulation, and leveraging of data.",
+    desc: "Ignit3i assists you in developing Software as a Service (SaaS) data analytics products with cloud-based deployment models. This approach not only reduces costs but also facilitates the seamless integration of your data streams on the cloud, providing unprecedented organization, storage, manipulation, and leveraging of data.",
     icon: Shield,
   },
 
@@ -188,17 +188,17 @@ const serviceCards = [
 const whyChooseCards = [
   {
     title: "Simple, Scalable, and Integrated Analytics",
-    desc: "At Netpace, our specialization lies in providing analytics solutions that are simple, scalable, and seamlessly integrated into your operations. We craft unique analytics solutions by focusing on developing best-in-class products that cater to the specific needs of our clients.",
+    desc: "At Ignite3i, our specialization lies in providing analytics solutions that are simple, scalable, and seamlessly integrated into your operations. We craft unique analytics solutions by focusing on developing best-in-class products that cater to the specific needs of our clients.",
     icon: GitMerge,
   },
   {
     title: "Proven Expertise in Analytics Solutions",
-    desc: "Netpace has a track record of delivering robust analytics solutions, positioning our clients for success in their respective industries..",
+    desc: "Ignite3i has a track record of delivering robust analytics solutions, positioning our clients for success in their respective industries..",
     icon: Layers,
   },
   {
     title: "Proven Track Record",
-    desc: "Netpace has a proven track record of delivering successful data analytics solutions to clients across various industries. Our results-driven approach ensures that you not only meet but exceed your business goals.",
+    desc: "Ignite3i has a proven track record of delivering successful data analytics solutions to clients across various industries. Our results-driven approach ensures that you not only meet but exceed your business goals.",
     icon: Zap,
   },
   {
@@ -348,7 +348,7 @@ export default function DataAnalytics() {
                 In the data-driven landscape of the modern business world,
                 harnessing the power of data analytics is paramount for
                 organizations striving to make informed decisions and gain a
-                competitive edge. At Netpace, we offer comprehensive Data
+                competitive edge. At Ignite<span className="text-red-500">3i</span>, we offer comprehensive Data
                 Analytics Services designed to unlock actionable insights from
                 your data, fueling innovation, and driving business success.
               </p>

@@ -216,7 +216,7 @@ Partnering with Ignite<span className="text-red-500">3i</span> connects you with
             </h2>
 
             <p className="mt-6 text-[18px] lg:text-[22px] leading-[1.5] font-light text-[#F3F4F6]">
-              We excel in providing staffing solutions for a wide array of engineering roles. With Netpace, you can trust that your engineering team will be fortified with top tier engineering professionals needed to drive your business to unparallel success.
+              We excel in providing staffing solutions for a wide array of engineering roles. With Ignite<span className="text-red-500">3i</span>, you can trust that your engineering team will be fortified with top tier engineering professionals needed to drive your business to unparallel success.
             </p>
             {/* <h2 className="text-[40px] lg:text-[42px] font-extralight tracking-wide text-white mt-12">
               AI Capabilities

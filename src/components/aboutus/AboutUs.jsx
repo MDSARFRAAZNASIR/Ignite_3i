@@ -164,7 +164,7 @@ export default function AboutUs() {
 
               <div className="mt-6 space-y-5 text-base sm:text-lg leading-tight sm:leading-6">
                 <p>
-                  Netpace strives to be at the forefront of a future where
+                  Ignite<span className="text-red-500">3i</span> strives to be at the forefront of a future where
                   technology seamlessly integrates into every aspect of
                   businesses, enabling unparalleled efficiency and innovation.
                   Our vision is to be the catalyst for industry-wide

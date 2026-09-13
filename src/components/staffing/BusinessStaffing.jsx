@@ -151,7 +151,7 @@ export default function BusinessStaffing() {
             className="max-w-7xl mx-auto"
           >
              <p className=" py-20 px-12 text-[18px] lg:text-[22px] leading-[1.8] font-light text-center">
-        In today’s fast-paced engineering landscape, the reliance on advanced technology is integral to seamless operations. At Netpace Inc., we offer comprehensive IT Services tailored specifically for engineering firms seeking reliable IT Support and Managed IT Services.
+        In today’s fast-paced engineering landscape, the reliance on advanced technology is integral to seamless operations. At Ignite<span className="text-red-500">3i</span> Inc., we offer comprehensive IT Services tailored specifically for engineering firms seeking reliable IT Support and Managed IT Services.
               </p>
             <div className="bg-gradient-to-br
               from-cyan-400/50
@@ -176,7 +176,7 @@ export default function BusinessStaffing() {
             >
              
               <p className=" mt-3 text-center text-[18px] lg:text-[22px] leading-[1.5] font-light ">
-              For engineering firms, IT downtime is more than an inconvenience—it hampers productivity, threatens success, and undermines innovation. Our Managed IT Services are meticulously designed to mitigate such risks and bolster technological capabilities. By entrusting your IT Support needs to Netpace, you unlock a world where collaboration, project completion, and a competitive edge take precedence.
+              For engineering firms, IT downtime is more than an inconvenience—it hampers productivity, threatens success, and undermines innovation. Our Managed IT Services are meticulously designed to mitigate such risks and bolster technological capabilities. By entrusting your IT Support needs to Ignite<span className="text-red-500">3i</span>, you unlock a world where collaboration, project completion, and a competitive edge take precedence.
               </p>
               <motion.div
                 whileHover={{ scale: 1.05 }}
@@ -217,7 +217,7 @@ export default function BusinessStaffing() {
             </h2>
 
             <p className="mt-6 text-[22px] leading-[1.8] font-light text-[#F3F4F6]">
-             Our mission at Netpace is centered around sourcing, vetting, and placing talent in diverse roles.
+             Our mission at Ignite<span className="text-red-500">3i</span> is centered around sourcing, vetting, and placing talent in diverse roles.
             </p>
             {/* <h2 className="text-[40px] lg:text-[42px] font-extralight tracking-wide text-white mt-12">
               AI Capabilities
@@ -247,7 +247,7 @@ export default function BusinessStaffing() {
               <h2 className=" py-12 text-[48px] lg:text-[54px] leading-[1.05] font-extralight text-white tracking-wide">
                 Why Choose
                 <br />
-                Ignite3i?
+                Ignite<span className="text-red-500">3i</span>?
               </h2>
             </motion.div>
 

@@ -80,7 +80,7 @@ const industries = [
     title: "Startup Industry",
     icon: Rocket,
     description:
-      "Startups trust Netpace for innovative, secure software solutions. With our IT outsourcing expertise, we enable rapid scaling of sophisticated systems. Leverage our Agile process and QA experience to bring your disruptive tech ideas to life swiftly and securely.",
+      "Startups trust Ignite3i for innovative, secure software solutions. With our IT outsourcing expertise, we enable rapid scaling of sophisticated systems. Leverage our Agile process and QA experience to bring your disruptive tech ideas to life swiftly and securely.",
   },
   {
     title: "Industrial Sector",
@@ -200,7 +200,7 @@ const IndustriesAccordion = () => {
 
             "
           >
-            At Ignite<span className="text-red-500"></span> Inc., we specialize in delivering industry-specific
+            At Ignite<span className="text-red-500">3i</span> Inc., we specialize in delivering industry-specific
             software solutions that empower enterprises to drive innovation,
             enhance operational efficiency, and achieve business objectives.
             With our wealth of expertise in delivering tailored digital

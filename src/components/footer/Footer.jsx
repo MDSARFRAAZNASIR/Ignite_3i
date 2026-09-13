@@ -24,72 +24,71 @@ const Footer = () => {
 
               <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
                 <div className="flex flex-col gap-4">
-                  <NavLink to="/services/web-development" className={linkClass}>
+                  <NavLink to="/it-consulting-service/enterprise-app" className={linkClass}>
                     Web Development
                   </NavLink>
 
-                  <NavLink to="/services/devops" className={linkClass}>
+                  <NavLink to="/it-consulting-service/devops" className={linkClass}>
                     DevOps Services
                   </NavLink>
 
                   <NavLink
-                    to="/services/mobile-app-development"
+                    to="/it-consulting-service/mobile-app-development"
                     className={linkClass}
                   >
                     Mobile App Development
                   </NavLink>
 
-                  <NavLink to="/services/data-analytics" className={linkClass}>
+                  <NavLink to="/it-consulting-service/data-analytics" className={linkClass}>
                     Data Analytics
                   </NavLink>
 
                   <NavLink
-                    to="/services/cloud-enablement"
+                    to="/it-consulting-service/cloud-enablement"
                     className={linkClass}
                   >
                     Cloud Enablement
                   </NavLink>
 
                   <NavLink
-                    to="/services/digital-creative"
+                    to="/it-consulting-service/digital-creative"
                     className={linkClass}
                   >
                     Digital & Creative
                   </NavLink>
 
-                  <NavLink to="/services/ui-ux" className={linkClass}>
+                  <NavLink to="/it-consulting-service/ui-ux-design" className={linkClass}>
                     UI / UX
                   </NavLink>
                 </div>
 
                 <div className="flex flex-col gap-4">
                   <NavLink
-                    to="/services/artificial-intelligence"
+                    to="/it-consulting-service/artificialIntelligence"
                     className={linkClass}
                   >
                     Artificial Intelligence
                   </NavLink>
 
-                  <NavLink to="/services/aws" className={linkClass}>
+                  <NavLink to="/it-consulting-service/aws-solution" className={linkClass}>
                     AWS
                   </NavLink>
 
-                  <NavLink to="/services/dotnet" className={linkClass}>
+                  <NavLink to="/it-consulting-service/dotnet-development" className={linkClass}>
                     .Net
                   </NavLink>
 
-                  <NavLink to="/services/netsuite" className={linkClass}>
+                  <NavLink to="/it-consulting-service/netsuit-erp" className={linkClass}>
                     NetSuite
                   </NavLink>
 
                   <NavLink
-                    to="/services/zendesk-services"
+                    to="/it-consulting-service/zendesk-integration"
                     className={linkClass}
                   >
                     Zendesk Services
                   </NavLink>
-
-                  <NavLink to="/services/offshore" className={linkClass}>
+                  <NavLink to="/it-consulting-service/offshore-services" className={linkClass}>
                     Offshore
                   </NavLink>
                 </div>
