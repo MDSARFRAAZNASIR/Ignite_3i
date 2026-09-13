@@ -4,9 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 const Footer = () => {
   const linkClass = ({ isActive }) =>
     `transition-colors duration-200 ${
-      isActive
-        ? "text-cyan-400"
-        : "text-slate-300 hover:text-cyan-400"
+      isActive ? "text-cyan-400" : "text-slate-300 hover:text-cyan-400"
     }`;
 
   return (
@@ -15,7 +13,6 @@ const Footer = () => {
       <div className="border-b border-slate-700/70">
         <div className="mx-auto max-w-[1800px] px-6 py-14 lg:px-12">
           <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-4 lg:gap-10">
-
             {/* ================= IT CONSULTING ================= */}
             <div>
               <h3 className="mb-8 text-2xl font-medium text-slate-200">
@@ -24,11 +21,17 @@ const Footer = () => {
 
               <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
                 <div className="flex flex-col gap-4">
-                  <NavLink to="/it-consulting-service/enterprise-app" className={linkClass}>
+                  <NavLink
+                    to="/it-consulting-service/enterprise-app"
+                    className={linkClass}
+                  >
                     Web Development
                   </NavLink>
 
-                  <NavLink to="/it-consulting-service/devops" className={linkClass}>
+                  <NavLink
+                    to="/it-consulting-service/devops"
+                    className={linkClass}
+                  >
                     DevOps Services
                   </NavLink>
 
@@ -39,7 +42,10 @@ const Footer = () => {
                     Mobile App Development
                   </NavLink>
 
-                  <NavLink to="/it-consulting-service/data-analytics" className={linkClass}>
+                  <NavLink
+                    to="/it-consulting-service/data-analytics"
+                    className={linkClass}
+                  >
                     Data Analytics
                   </NavLink>
 
@@ -57,7 +63,10 @@ const Footer = () => {
                     Digital & Creative
                   </NavLink>
 
-                  <NavLink to="/it-consulting-service/ui-ux-design" className={linkClass}>
+                  <NavLink
+                    to="/it-consulting-service/ui-ux-design"
+                    className={linkClass}
+                  >
                     UI / UX
                   </NavLink>
                 </div>
@@ -70,15 +79,24 @@ const Footer = () => {
                     Artificial Intelligence
                   </NavLink>
 
-                  <NavLink to="/it-consulting-service/aws-solution" className={linkClass}>
+                  <NavLink
+                    to="/it-consulting-service/aws-solution"
+                    className={linkClass}
+                  >
                     AWS
                   </NavLink>
 
-                  <NavLink to="/it-consulting-service/dotnet-development" className={linkClass}>
+                  <NavLink
+                    to="/it-consulting-service/dotnet-development"
+                    className={linkClass}
+                  >
                     .Net
                   </NavLink>
 
-                  <NavLink to="/it-consulting-service/netsuit-erp" className={linkClass}>
+                  <NavLink
+                    to="/it-consulting-service/netsuit-erp"
+                    className={linkClass}
+                  >
                     NetSuite
                   </NavLink>
 
@@ -88,7 +106,10 @@ const Footer = () => {
                   >
                     Zendesk Services
                   </NavLink>
-                  <NavLink to="/it-consulting-service/offshore-services" className={linkClass}>
+                  <NavLink
+                    to="/it-consulting-service/offshore-services"
+                    className={linkClass}
+                  >
                     Offshore
                   </NavLink>
                 </div>
@@ -103,10 +124,7 @@ const Footer = () => {
 
               <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
                 <div className="flex flex-col gap-4">
-                  <NavLink
-                    to="/staffing/it-staffing"
-                    className={linkClass}
-                  >
+                  <NavLink to="/staffing/it-staffing" className={linkClass}>
                     IT Staffing Solution
                   </NavLink>
 
@@ -165,10 +183,7 @@ const Footer = () => {
               </h3>
 
               <div className="flex flex-col gap-4">
-                <NavLink
-                  to="/about/diversity-inclusion"
-                  className={linkClass}
-                >
+                <NavLink to="/about/diversity-inclusion" className={linkClass}>
                   Diversity & Inclusion
                 </NavLink>
 
@@ -192,7 +207,6 @@ const Footer = () => {
       {/* ================= BOTTOM FOOTER ================= */}
       <div className="mx-auto max-w-[1800px] px-6 py-8 lg:px-12">
         <div className="grid grid-cols-1 gap-10 lg:grid-cols-2 lg:items-start">
-
           {/* ================= LEFT ================= */}
           <div>
             {/* Logo */}
@@ -209,20 +223,15 @@ const Footer = () => {
             {/* Copyright */}
             <div className="mt-16 flex flex-wrap items-center gap-x-10 gap-y-4 text-sm text-slate-400">
               <span>
-                © 2026 Ignite<span className="text-red-500">3i</span>, Inc. All Rights Reserved
+                © 2026 Ignite<span className="text-red-500">3i</span>, Inc. All
+                Rights Reserved
               </span>
 
-              <NavLink
-                to="/privacy-policy"
-                className={linkClass}
-              >
+              <NavLink to="/privacy-policy" className={linkClass}>
                 Privacy Policy
               </NavLink>
 
-              <NavLink
-                to="/terms-and-conditions"
-                className={linkClass}
-              >
+              <NavLink to="/terms-and-conditions" className={linkClass}>
                 Terms and Conditions
               </NavLink>
             </div>
@@ -235,9 +244,7 @@ const Footer = () => {
                 aria-label="Social Media"
                 className="flex h-7 w-7 items-center justify-center rounded-sm bg-white transition hover:opacity-80"
               >
-                <span className="text-lg font-bold text-[#111428]">
-                  C
-                </span>
+                <span className="text-lg font-bold text-[#111428]">C</span>
               </Link>
 
               {/* LinkedIn */}
@@ -259,13 +266,11 @@ const Footer = () => {
 
           {/* ================= NEWSLETTER ================= */}
           <div className="lg:pl-10">
-            <h3 className="text-2xl font-medium text-slate-200">
-              NEWSLETTER
-            </h3>
+            <h3 className="text-2xl font-medium text-slate-200">NEWSLETTER</h3>
 
             <p className="mt-2 max-w-2xl text-base leading-5 text-slate-300">
-              Stay connected with Ignite<span className="text-red-500">3i</span> Inc. for exclusive insights,
-              curated resources and expert guidance
+              Stay connected with Ignite<span className="text-red-500">3i</span>{" "}
+              Inc. for exclusive insights, curated resources and expert guidance
             </p>
 
             <form className="mt-7 flex w-full max-w-2xl">

@@ -1,5 +1,3 @@
-
-
 import React from "react";
 import { motion } from "framer-motion";
 
@@ -11,7 +9,7 @@ const ServiceScrollingPage = () => {
     "APPLICATION",
     "OS",
     "AUTOMATION",
-    "AI SOLUTIONS"
+    "AI SOLUTIONS",
   ];
 
   // Loop configuration for infinite scroll animations
@@ -31,7 +29,6 @@ const ServiceScrollingPage = () => {
 
   return (
     <div className="w-full bg-[#0a142f] py-14 overflow-hidden border-y border-slate-900/60 flex items-center relative select-none">
-      
       {/* Dynamic Ambient Blur Glows (Left and Right edges) */}
       <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-[#030712] to-transparent z-10 pointer-events-none" />
       <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-[#030712] to-transparent z-10 pointer-events-none" />

@@ -133,7 +133,7 @@ export default function AboutUs() {
 
               <div className="mt-6 space-y-5 text-base sm:text-lg leading-tight sm:leading-6">
                 <p>
-                  Our overarching mission at Netpace is to catalyze
+                  Our overarching mission at Ignite<span className="text-red-500">3i</span> is to catalyze
                   transformative change through innovative, scalable tech
                   solutions. We aim to streamline operations, enhance
                   efficiency, and drive growth for our clients through
